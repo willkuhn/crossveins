@@ -1,5 +1,5 @@
 {:.menu}
-| **[Home](#)** | **[About](#about)** | **[Research](#research)** | **[Publications](#publications)** | **[Grants](#grants)** | **[Travel blog](travel_blog.html)** | **[Links](#links)** |
+| **[Home](index.html#)** | **[About](index.html#about)** | **[Research](index.html#research)** | **[Publications](index.html#publications)** | **[Grants](index.html#grants)** | **[Travel blog](travel_blog.html)** | **[Links](index.html#links)** |
 
 * * *
 
@@ -17,9 +17,9 @@ Room 236<br>
 1520 Middle Drive<br>
 Knoxville, Tennessee 37996
 
-**will [dot] kuhn [at] rutgers [dot] edu**
+**willkuhn [at] crossveins [dot] com**
 
-### Curriculum vitae
+### [Curriculum vitae (PDF)](assets\docs\Kuhn CV.pdf)
 
 ## Research<a href="#"><img src="assets/top-icon.png" alt="back to top"></a>
 
@@ -60,14 +60,14 @@ Species in the damselfly genus *Polythore* have highly polymorphic wing patterns
 {:.pubs-list}
 | 2018 | Kohli, MK, G Sahlén, **WR Kuhn**, E Pilgrim, JL Ware. In review. Extremely low genetic diversity in the circumpolar dragonfly species, *Somatochlora sahlbergi* (Insecta: Odonata: Anisoptera). Scientific Reports. |
 | 2016 | **Kuhn, WR**. 2016. Three Approaches to Automating Taxonomy with Emphasis on the Odonata (Dragonflies and Damselflies). PhD Dissertation. Federated Dept. of Biological Sciences, Rutgers University, Newark, NJ. 189 pp. |
-| 2015 | Sanchez-Herrera, M, **WR Kuhn**, MO Lorenzo-Carballa, KM Harding, N Ankrom, TN Sherratt, J Hoffman, H Van Gossum, JL Ware, A Cordero-Rivera, CD Beatty. 2015. Mixed signals? Morphological and molecular evidence suggest a color polymorphism in the Neotropical *Polythore* damselflies. PLOS One 10(4): e0125074. [[link](http://dx.doi.org/10.1371/journal.pone.0125074)] [pdf] [[supp files & Mathematica notebook](https://www.dropbox.com/s/d0xtzgil41b8wn7/Supplementary%20file%20S1.zip?dl=0)*] |
-| 2013 | **Kuhn, WR**, RR Youngman, K Love, T Mize, S Wu, and CA Laub. 2013. Billbugs (Coleoptera: Curculionidae) new to orchardgrass (*Dactylis glomerata*) grown in Virginia. Entomolological News 123(4): 315–316. [[link](http://dx.doi.org/10.3157/021.123.0405)] [pdf] |
-|  | **Kuhn, WR**, RR Youngman, S Wu, and CA Laub. 2013. Ecology, taxonomy, and pest management of billbugs (Coleoptera: Curculionidae) in orchardgrass of Virginia. Journal of Integrated Pest Management 4(3): B1–B5. [[link](http://dx.doi.org/10.1603/IPM12022)] [pdf] |
+| 2015 | Sanchez-Herrera, M, **WR Kuhn**, MO Lorenzo-Carballa, KM Harding, N Ankrom, TN Sherratt, J Hoffman, H Van Gossum, JL Ware, A Cordero-Rivera, CD Beatty. 2015. Mixed signals? Morphological and molecular evidence suggest a color polymorphism in the Neotropical *Polythore* damselflies. PLOS One 10(4): e0125074. [[link](http://dx.doi.org/10.1371/journal.pone.0125074)] [[pdf](assets\docs\Sanchez_et_al_2015_Polythore.pdf)] [[supp files & Mathematica notebook](https://www.dropbox.com/s/d0xtzgil41b8wn7/Supplementary%20file%20S1.zip?dl=0)*] |
+| 2013 | **Kuhn, WR**, RR Youngman, K Love, T Mize, S Wu, and CA Laub. 2013. Billbugs (Coleoptera: Curculionidae) new to orchardgrass (*Dactylis glomerata*) grown in Virginia. Entomolological News 123(4): 315–316. [[link](http://dx.doi.org/10.3157/021.123.0405)] [[pdf](assets\docs\Kuhn_et_al_2013_Ent_News.pdf)] |
+|  | **Kuhn, WR**, RR Youngman, S Wu, and CA Laub. 2013. Ecology, taxonomy, and pest management of billbugs (Coleoptera: Curculionidae) in orchardgrass of Virginia. Journal of Integrated Pest Management 4(3): B1–B5. [[link](http://dx.doi.org/10.1603/IPM12022)] [[pdf](assets\docs\Kuhn_et_al_2013_JIPM.pdf)] |
 |  | **Kuhn, WR**, and JL Ware. 2013. A review of “Dragonflies and Damselflies of the East (Princeton Field Guides)” by Dennis Paulson. Entomologica Americana 119(1 & 2): 46. [[link](http://dx.doi.org/10.1664/12-BR-008.1)] |
-| 2012 | Biazzo, I, GR Bourne, D Evangelista, J Evangelista, V Funk, M Sanchez-Herrera, C Kelloff, MK Kohli, W Kuhn, N Sroczynski, and J Ware. 2012. Guyana days: Collecting in the northern Guyana Shield. Argia 24: 12–14. [pdf] |
-| 2010 | **Kuhn, WR**. 2010. Pest management of billbugs in orchardgrass grown in Virginia. Master's Thesis. Department of Entomology, Virginia Tech, Blacksburg. 81 pp. [pdf] |
-|  | **Kuhn, WR**, RR Youngman, CA Laub, KP Love, and TA Mize. 2010. Bluegrass billbug pest management in orchardgrass. Virginia Cooperative Extension pub. 444-440. [[link](http://pubs.ext.vt.edu/444/444-040/444-040.html)] [pdf] |
-|  | **Kuhn, WR**, RR Youngman, CA Laub, KP Love, and TA Mize. 2010. Hunting billbug pest management in orchardgrass. Virginia Cooperative Extension pub. 444-041. [[link](http://pubs.ext.vt.edu/444/444-041/444-041.html)] [pdf] |
+| 2012 | Biazzo, I, GR Bourne, D Evangelista, J Evangelista, V Funk, M Sanchez-Herrera, C Kelloff, MK Kohli, W Kuhn, N Sroczynski, and J Ware. 2012. Guyana days: Collecting in the northern Guyana Shield. Argia 24: 12–14. [[pdf](assets\docs\Biazzo_et_al_2012_Argia.pdf)] |
+| 2010 | **Kuhn, WR**. 2010. Pest management of billbugs in orchardgrass grown in Virginia. Master's Thesis. Department of Entomology, Virginia Tech, Blacksburg. 81 pp. [[pdf](assets\docs\Kuhn_2010_MS_thesis.pdf)] |
+|  | **Kuhn, WR**, RR Youngman, CA Laub, KP Love, and TA Mize. 2010. Bluegrass billbug pest management in orchardgrass. Virginia Cooperative Extension pub. 444-440. [[link](http://pubs.ext.vt.edu/444/444-040/444-040.html)] [[pdf](assets\docs\Kuhn_et_al_2010_Bluegrass_Billbug.pdf)] |
+|  | **Kuhn, WR**, RR Youngman, CA Laub, KP Love, and TA Mize. 2010. Hunting billbug pest management in orchardgrass. Virginia Cooperative Extension pub. 444-041. [[link](http://pubs.ext.vt.edu/444/444-041/444-041.html)] [[pdf](assets\docs\Kuhn_et_al_2010_Hunting_Billbug.pdf)] |
 
 \*Note: Scripts in the Sanchez-Herrera et al. 2015 supplementary files require Wolfram [Mathematica](https://www.wolfram.com/mathematica/) (and optionally [Past](http://folk.uio.no/ohammer/past/)) to run.
 

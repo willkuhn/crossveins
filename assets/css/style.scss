@@ -3,24 +3,37 @@
 
 @import "{{ site.theme }}";
 
-// Project title
+// Project title & tagline
 #project_title, #project_tagline{
-  color: #C6D9C9;
+  color: #C6D9C9; // pastel gray
+}
+// Nix shadow & border from logo
+img#logo {
+    border: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    margin: 0px;
+    // padding: 0px;
+    // max-width: 640px;
 }
 
-// a, a:hover, h2 {
-//   color: #426EC0; // blue
-// }
-h2 {
-  color: #181916;
+// Text color
+h2, p, td {
+  color: #181916; // eerie black
 }
-
-a, a:hover, h3 {
-  color: #5B974F; // green
-}
-
 strong {
-  color: #D5AD40;
+  color: #181916; // eerie black // #D5AD40; // maximum yellow green
+}
+h3 {
+  color: #5B974F; // middle green
+}
+
+// Links color
+a, a:hover {
+  color: #5B974F; // middle green
+}
+a:visited {
+  color: #3A6133; // mughal green
 }
 
 // Style menu
@@ -33,19 +46,11 @@ table.menu td {
     border: 0px;
 }
 
-// Style back-to-top arrows
+// Style back-to-top arrows next to section headers
 h2 img {
     width: 25px;
     vertical-align: bottom;
     float: right;
-    padding-bottom: 0px;
-    border: none;
-    box-shadow: none;
-    -webkit-box-shadow: none;
-}
-
-// Nix shadow & border from logo
-img#logo, div.social-buttons img {
     border: none;
     box-shadow: none;
     -webkit-box-shadow: none;
@@ -59,10 +64,23 @@ table.pubs-list{
 table.pubs-list td {
     border: 0px;
 }
+// 1st column (year in publications & grants lists)
 table.pubs-list td:first-child {
-    //color: #5B974F; // green
     font-weight: bold;
 }
+// 3rd column (amounts in grants list)
 table.pubs-list td:nth-child(3) {
     text-align: right;
+    font-weight: bold;
+}
+
+// Style footer text
+p.footer {
+  color: #C6D9C9; // pastel gray
+}
+// Style social media buttons in footer
+div.social-buttons img {
+    border: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
 }

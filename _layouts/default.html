@@ -41,8 +41,14 @@
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <p class="copyright">Copyright {{ site.title | default: site.github.repository_name }} 2018<br>
-        Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+        <p class="footer">Copyright {{ site.title | default: site.github.repository_name }} 2018<br>
+
+        {% if site.github.is_project_page %}
+        <p class="footer">View the Project on GitHub <a href="{{ site.github.repository_url }}"><small>{{ site.github.repository_nwo }}</small></a></p>
+        {% endif %}
+
+        <p class="footer">Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+
         <p>
           <div class="social-buttons">
             <a href="http://www.twitter.com/crossveins" target="_blank"><img alt="Twitter icon" src="assets\twitter.png" style="width: 39px; height: 39px; object-fit: cover;"></a>

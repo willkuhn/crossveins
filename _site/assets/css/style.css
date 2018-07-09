@@ -266,19 +266,23 @@ Small Device Styles
   code, pre { min-width: 240px; max-width: 320px; font-size: 11px; } }
 #project_title, #project_tagline { color: #C6D9C9; }
 
-h2 { color: #181916; }
+img#logo { border: none; box-shadow: none; -webkit-box-shadow: none; margin: 0px; }
 
-a, a:hover, h3 { color: #5B974F; }
+h2, p, td { color: #181916; }
 
-strong { color: #D5AD40; }
+strong { color: #181916; }
+
+h3 { color: #5B974F; }
+
+a, a:hover { color: #5B974F; }
+
+a:visited { color: #3A6133; }
 
 table.menu { border: 0px; text-align: center; width: 100%; }
 
 table.menu td { border: 0px; }
 
-h2 img { width: 25px; vertical-align: bottom; float: right; padding-bottom: 0px; border: none; box-shadow: none; -webkit-box-shadow: none; }
-
-img#logo, div.social-buttons img { border: none; box-shadow: none; -webkit-box-shadow: none; }
+h2 img { width: 25px; vertical-align: bottom; float: right; border: none; box-shadow: none; -webkit-box-shadow: none; }
 
 table.pubs-list { border: 0px; width: 100%; }
 
@@ -286,4 +290,8 @@ table.pubs-list td { border: 0px; }
 
 table.pubs-list td:first-child { font-weight: bold; }
 
-table.pubs-list td:nth-child(3) { text-align: right; }
+table.pubs-list td:nth-child(3) { text-align: right; font-weight: bold; }
+
+p.footer { color: #C6D9C9; }
+
+div.social-buttons img { border: none; box-shadow: none; -webkit-box-shadow: none; }
