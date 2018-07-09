@@ -1,0 +1,68 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// Project title
+#project_title, #project_tagline{
+  color: #C6D9C9;
+}
+
+// a, a:hover, h2 {
+//   color: #426EC0; // blue
+// }
+h2 {
+  color: #181916;
+}
+
+a, a:hover, h3 {
+  color: #5B974F; // green
+}
+
+strong {
+  color: #D5AD40;
+}
+
+// Style menu
+table.menu {
+    border: 0px;
+    text-align:  center;
+    width: 100%;
+}
+table.menu td {
+    border: 0px;
+}
+
+// Style back-to-top arrows
+h2 img {
+    width: 25px;
+    vertical-align: bottom;
+    float: right;
+    padding-bottom: 0px;
+    border: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+// Nix shadow & border from logo
+img#logo, div.social-buttons img {
+    border: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+// Style publications & grants tables
+table.pubs-list{
+    border: 0px;
+    width: 100%;
+}
+table.pubs-list td {
+    border: 0px;
+}
+table.pubs-list td:first-child {
+    //color: #5B974F; // green
+    font-weight: bold;
+}
+table.pubs-list td:nth-child(3) {
+    text-align: right;
+}
