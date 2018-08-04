@@ -1,59 +1,200 @@
 ---
 ---
-
 @import "{{ site.theme }}";
+
+/*--- PAGE ------------------------------------------------------------------*/
+
+$feature-image-height            : 400px; // min 150px recommended
+$front-page-feature-image-height : 300px; // min 150px recommended
+$column-width                    : 950px;
+
+
+/*--- TYPOGRAPHY ------------------------------------------------------------*/
+
+$base-font                       : 'Montserrat', sans-serif;
+$heading-font                    : $base-font; //'Lora', serif;
+$caption-font                    : $base-font;
+$code-font                       : monospace;
+$alt-font                        : serif;
+
+
+/*--- COLORS ----------------------------------------------------------------*/
+
+$base-color                      : rgba(#222,0.8);
+$text-color                      : #090A08; //smoky black // #181916; // eerie black
+$h3-color                        : #C64A3B; // English vermillion // #C13828; // internat'l orange // #5B974F; // middle green
+$link-color                      : $h3-color;
+$footer-color                    : #C6D9C9; // pastel gray
+$title-color                     : #C6D9C9; // pastel gray
+
+
+/*--- LINKS -----------------------------------------------------------------*/
+
+a {
+	text-decoration: none;
+	color: $link-color;
+
+	&:visited {
+		color: lighten($link-color, 10);
+	}
+
+	&:hover {
+		color: lighten($link-color, 10);
+	}
+
+	&:focus {
+		outline: thin dotted;
+		color: darken($link-color, 10);
+	}
+
+	&:hover,
+	&:active {
+		outline: 0;
+	}
+}
+
+
+/*--- HEADER ----------------------------------------------------------------*/
 
 // Project title & tagline
 #project_title, #project_tagline{
-  color: #C6D9C9; // pastel gray
+  color: $title-color;
+	text-align: center;
+	font-weight: 200 !important;
 }
-// Nix shadow & border from logo
-img#logo {
-    border: none;
-    box-shadow: none;
-    -webkit-box-shadow: none;
+
+// NAVIGATION BAR
+
+.navigation-bar {
+    //word-spacing: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+    li {
+	    padding-left: 10px;
+	    padding-right: 10px;
+	    display: inline-block;
+    }
+
+    a {
+    	text-transform: uppercase;
+      font-weight: 500 !important;
+
+	    &:hover {
+	    	text-transform: uppercase;
+	      color: lighten($link-color,10);
+	    }
+			&:visited {
+	    	text-transform: uppercase;
+	      color: $link-color;
+	    }
+		}
+
+}
+
+
+/*--- MAIN CONTENT ----------------------------------------------------------*/
+
+// DIVIDING LINE
+
+hr {
+    display: block;
+    margin: 1em 0 1.5em;
+    padding: 0;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #fff;
+}
+
+// FIGURES & IMAGES
+
+figure {
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  img {
+    margin-bottom: 0px;
+  }
+}
+
+img {
+  max-width: 100%;
+	border: none;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+
+	// Nix shadow & border from logo
+	&#logo {
     margin: 0px;
-    // padding: 0px;
-    // max-width: 640px;
+    padding: 0px;
+    // max-width: 640px !important;
+	}
+
+	// Images in research section
+	&.res {
+		max-width: 33%;
+	  max-height: 128px;
+	}
+
+	// Back-to-top arrows next to h2 headers
+	&.top-icon {
+	  width: 30px;
+	  vertical-align: bottom;
+	  float: right;
+	}
+
 }
+
+// Image wrapped in paragraph
+p img {
+	border-radius: 5px;
+}
+
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+// BODY
+
+body {
+    font-family: $base-font !important;
+    font-weight: 300 !important;
+    color: $text-color;
+  	margin: 0;
+  	padding: 0;
+  	width: 100%;
+}
+
+p, span {
+  font-family: $base-font !important;
+  font-weight: 300 !important;
+}
+
+// HEADINGS
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $heading-font !important;
+  font-weight: 500 !important;
+}
+
+// h2 {
+// 	padding-top: 30px;
+// }
 
 // Text color
-h2, p, td {
-  color: #181916; // eerie black
+h2, h4, h6, p, td {
+  color: $text-color;
 }
 strong {
-  color: #181916; // eerie black // #D5AD40; // maximum yellow green
+  color: $text-color;
 }
-h3 {
-  color: #5B974F; // middle green
-}
-
-// Links color
-a, a:hover {
-  color: #5B974F; // middle green
-}
-a:visited {
-  color: #3A6133; // mughal green
-}
-
-// Style menu
-table.menu {
-    border: 0px;
-    text-align:  center;
-    width: 100%;
-}
-table.menu td {
-    border: 0px;
-}
-
-// Style back-to-top arrows next to section headers
-h2 img {
-    width: 25px;
-    vertical-align: bottom;
-    float: right;
-    border: none;
-    box-shadow: none;
-    -webkit-box-shadow: none;
+h3, h5 {
+  color: $h3-color;
 }
 
 // Style publications & grants tables
@@ -64,23 +205,39 @@ table.pubs-list{
 table.pubs-list td {
     border: 0px;
 }
+
 // 1st column (year in publications & grants lists)
 table.pubs-list td:first-child {
     font-weight: bold;
 }
+
 // 3rd column (amounts in grants list)
 table.pubs-list td:nth-child(3) {
     text-align: right;
     font-weight: bold;
 }
 
+
+/*--- FOOTER ----------------------------------------------------------------*/
+
 // Style footer text
-p.footer {
-  color: #C6D9C9; // pastel gray
+.footer {
+  color: $footer-color;
 }
+
 // Style social media buttons in footer
-div.social-buttons img {
+.social-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+	// justify-content: left;
+
+  img {
     border: none;
     box-shadow: none;
     -webkit-box-shadow: none;
+    width: 39px;
+    height: 39px;
+    //object-fit: cover;
+  }
 }
