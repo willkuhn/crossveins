@@ -1,7 +1,7 @@
 ---
 ---
-// @import "{{ site.theme }}";
-@import {{"/assets/css/jekyll-theme-slate.css" | relative_url}};
+@import "{{ site.theme }}";
+// @import {{"/assets/css/jekyll-theme-slate.css" | relative_url}};
 
 /*--- PAGE ------------------------------------------------------------------*/
 
