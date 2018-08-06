@@ -1,7 +1,7 @@
 ---
 ---
 // @import "{{ site.theme }}";
-@import "/assets/css/jekyll-theme-slate.css";
+@import "{{'/assets/css/jekyll-theme-slate.css' | absolute_url}}";
 
 /*--- PAGE ------------------------------------------------------------------*/
 
