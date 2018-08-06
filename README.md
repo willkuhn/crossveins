@@ -2,7 +2,7 @@
 
 I'm a postdoc working under an NSF Postdoctoral Fellowship in the Imaging, Robotics, and Intelligent Systems (IRIS) Lab at the University of Tennessee. My interests lie at the intersection of organismal biology and machine learning, and specifically in applications like automatically identifying species and automatically describing biological specimens. I have a background in entomology (with dragonflies and weevils) and evolutionary biology. This site outlines my postdoc and dissertation research, as well as a few side projects. Please have a look around and contact me if you have questions, have suggestions, or are interested in learning more about my work.
 
-![Me in the Smokies](\images\site\will.jpg "Me in the Smokies")
+![Me in the Smokies](images/site/will.jpg "Me in the Smokies")
 
 ### Contact
 

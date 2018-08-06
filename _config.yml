@@ -9,3 +9,4 @@ author:
   twitter: crossveins
 plugins:
   - jekyll-seo-tag
+  - jekyll-relative-links

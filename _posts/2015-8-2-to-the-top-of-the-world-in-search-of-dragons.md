@@ -18,9 +18,9 @@ Photo credit: Kosterin via DiscoverLife.org" %}
 
 We started our journey from New Jersey on the evening of 1 August 2015. Step one of our journey was getting to Whitehorse, which included three different flights, two different time zones and a night of camping at the airport. This left us tired and grumpy. However, our moods entirely changed and our spirits lifted as we approached closer to Whitehorse. The sight of amazing snow covered mountains and beautifully carved paths by glaciers (as visible from our airplane) were absolutely breathtaking. This filled us with joy and excitement as we thought about the remarkable adventure that we were about to being.  The landscape in Whitehorse is dominated by mountains, which are cut by the Yukon River flowing right next to our hotel. The water is super clear, with a nice blue-green tint.  Tomorrow we'll pick up our rental car and drive ~8 hrs to the Dempster Highway. That's when the fun begins!
 
-{% include image.html file="images/2015-8-2/glacial_flow.webp" description="A glacial flow (looks like a white river, bottom center) somewhere between Vancouver and Whitehorse" %}
+{% include image.html file="/images/2015-8-2/glacial_flow.webp" description="A glacial flow (looks like a white river, bottom center) somewhere between Vancouver and Whitehorse" %}
 
-{% include image.html file="images/2015-8-2/mountains_from_plane.webp" description="View of the mountains between Vancouver and Whitehorse" %}
+{% include image.html file="/images/2015-8-2/mountains_from_plane.webp" description="View of the mountains between Vancouver and Whitehorse" %}
 
 {% include image.html file="images/2015-8-2/Yukon_River.webp" description="The cool clear waters of the Yukon River at Whitehorse" %}
 
