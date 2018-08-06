@@ -10,3 +10,4 @@ author:
 plugins:
   - jekyll-seo-tag
   - jekyll-relative-links
+permalink: /:year-:month-:day/:title:output_ext
