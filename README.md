@@ -1,8 +1,10 @@
-## About<a href="#"><img class="top-icon" src="images/site/top-icon.svg" onerror="this.src='images/site/top-icon.png'" alt="back to top"></a>
+<p style="display:none;">Title</p>
+
+## About{% include top-arrow.html %}
 
 I'm a postdoc working under an NSF Postdoctoral Fellowship in the Imaging, Robotics, and Intelligent Systems (IRIS) Lab at the University of Tennessee. My interests lie at the intersection of organismal biology and machine learning, and specifically in applications like automatically identifying species and automatically describing biological specimens. I have a background in entomology (with dragonflies and weevils) and evolutionary biology. This site outlines my postdoc and dissertation research, as well as a few side projects. Please have a look around and contact me if you have questions, have suggestions, or are interested in learning more about my work.
 
-![Me in the Smokies](images/site/will.jpg "Me in the Smokies")
+{% include image.html file="/images/site/will.jpg" description="" %}
 
 ### Contact
 
@@ -20,7 +22,7 @@ Knoxville, Tennessee 37996
 
 ***
 
-## Research<a href="#"><img class="top-icon" src="images/site/top-icon.svg" onerror="this.src='images/site/top-icon.png'" alt="back to top"></a>
+## Research{% include top-arrow.html %}
 
 ### Targeted Odonata Wing Digitization Project
 
@@ -75,7 +77,7 @@ Species in the damselfly genus *Polythore* have highly polymorphic wing patterns
 
 ***
 
-## Publications<a href="#"><img class="top-icon" src="images/site/top-icon.svg" onerror="this.src='images/site/top-icon.png'" alt="back to top"></a>
+## Publications{% include top-arrow.html %}
 
 {:.pubs-list}
 | 2018 | Kohli, MK, G Sahlén, **WR Kuhn**, E Pilgrim, JL Ware. In review. Extremely low genetic diversity in the circumpolar dragonfly species, *Somatochlora sahlbergi* (Insecta: Odonata: Anisoptera). Scientific Reports. |
@@ -93,7 +95,7 @@ Species in the damselfly genus *Polythore* have highly polymorphic wing patterns
 
 ***
 
-## Grants<a href="#"><img class="top-icon" src="images/site/top-icon.svg" onerror="this.src='images/site/top-icon.png'" alt="back to top"></a>
+## Grants{% include top-arrow.html %}
 
 {:.pubs-list}
 | 2016 | Leveraging face-detection methods to identify insects from field photos, automatically (**PI**, [link](http://www.nsf.gov/awardsearch/showAward?AWD_ID=1611642)) | $138,000 |
@@ -101,7 +103,7 @@ Species in the damselfly genus *Polythore* have highly polymorphic wing patterns
 
 ***
 
-## Links<a href="#"><img class="top-icon" src="images/site/top-icon.svg" onerror="this.src='images/site/top-icon.png'" alt="back to top"></a>
+## Links{% include top-arrow.html %}
 
 - [Discover Life in America](https://dlia.org/)
 - [Worldwide Dragonfly Association](https://worlddragonfly.org)
