@@ -30,7 +30,7 @@ title: Tags Archive
                 {% for post in site.tags[this_word] %}
                     {% if post.title != null %}
                         <li>
-                            <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}&nbsp;({{ post.date | date: "%-d %B %Y" }})</a>
+                            <a href="{{ site.url | relative_url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}&nbsp;({{ post.date | date: "%-d %B %Y" }})</a>
                         </li>
                     {% endif %}
                 {% endfor %}
