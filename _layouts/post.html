@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<html lang="{{ site.lang | default: "en-US" }}">
+
+<head>
+    {% include head.html %}
+</head>
+
+<!-- BODY -->
+<body id="post">
+  <!-- HEADER + NAVIGATION -->
+  <div id="header_wrap" class="outer">
+    <!-- HEADER -->
+    <header class="inner">
+      {% include header.html %}
+    </header>
+
+    <!-- BLOG NAVIGATION -->
+    <nav>
+      {% include navigation-blog.html %}
+    </nav>
+    <br>
+
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <div id="main_content_wrap" class="outer">
+    <section id="main_content" class="inner">
+
+      <article class="hentry">
+
+        <!-- <div class="featured-image">
+        <img src="{{ page.featured-image}}" style="width:100%">
+        </div> -->
+
+        <!-- MAIN -->
+        <h2 class="entry-title">
+            <a>{{ page.title }}</a>
+        </h2>
+        <h3 class="entry-subtitle">
+            <a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ page.subtitle }}</a>
+        </h3>
+
+        <hr>
+
+        <!-- POST CONTENT -->
+        <div class="entry-content">
+            {{ page.content }}
+        </div>
+
+        <!--- DIVIDING LINE -->
+        <hr>
+
+        <!-- POST TAGS -->
+        <div class="inline-tags">
+            <span>
+                {% for tag in page.tags %}
+                    <a href="/tags/#{{tag}}">#{{ tag }}&nbsp;</a>
+                {% endfor %}
+            </span>
+        </div>
+
+        <!-- POST DATE -->
+        <div class="post-date">
+            <p>{{ page.date | date: "%-d %B %Y" }}</p>
+        </div>
+
+      </article>
+    </section>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer-wrapper" class="outer">
+    <footer role="contentinfo">
+        {% include footer.html %}
+    </footer>
+  </div>
+</body>
+
+</html>

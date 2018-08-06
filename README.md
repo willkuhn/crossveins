@@ -1,8 +1,8 @@
-## About<a href="#"><img class="top-icon" src="assets/images/top-icon.svg" onerror="this.src='assets/images/top-icon.png'" alt="back to top"></a>
+## About<a href="#"><img class="top-icon" src="\images\site\top-icon.svg" onerror="this.src='\images\site\top-icon.png'" alt="back to top"></a>
 
 I'm a postdoc working under an NSF Postdoctoral Fellowship in the Imaging, Robotics, and Intelligent Systems (IRIS) Lab at the University of Tennessee. My interests lie at the intersection of organismal biology and machine learning, and specifically in applications like automatically identifying species and automatically describing biological specimens. I have a background in entomology (with dragonflies and weevils) and evolutionary biology. This site outlines my postdoc and dissertation research, as well as a few side projects. Please have a look around and contact me if you have questions, have suggestions, or are interested in learning more about my work.
 
-![Me in the Smokies](assets/images/will.jpg "Me in the Smokies")
+![Me in the Smokies](\images\site\will.jpg "Me in the Smokies")
 
 ### Contact
 
@@ -18,33 +18,35 @@ Knoxville, Tennessee 37996
 
 ### [Curriculum vitae (PDF)](assets/docs/Kuhn CV.pdf)
 
-## Research<a href="#"><img class="top-icon" src="assets/images/top-icon.svg" onerror="this.src='assets/images/top-icon.png'" alt="back to top"></a>
+***
+
+## Research<a href="#"><img class="top-icon" src="\images\site\top-icon.svg" onerror="this.src='\images\site\top-icon.png'" alt="back to top"></a>
 
 ### Targeted Odonata Wing Digitization Project
 
 <!-- <a href="https://willkuhn.github.io/towd">
-<img class="res" src="https://willkuhn.github.io/towd/assets/images/towd-project-logo.png" alt="TOWD Project logo" caption="TOWD Project logo">
+<img class="res" src="https://willkuhn.github.io/towd\images\site\towd-project-logo.png" alt="TOWD Project logo" caption="TOWD Project logo">
 </a> -->
 
 The TOWD Project is a collaborative effort with Rutgers and University of Alabama, and several other institutions to digitize the wings of all North American species of dragonflies and damselflies, and to build a publicly-available image library, hosted by [CyVerse](https://cyverse.org/) Cyberinfrastructure. We're incorporating wing-based species identification engine, which will be trained to distinguish all North American Odonata, and creating tools to be able to automatically extract phenological information from these images (such as wing shape, size, color, and patterning) for comparative analysis. This work if funded by an NSF ABI [grant](#grants). ([project website](https://willkuhn.github.io/towd/))
 
 ### Photo-based species identification of dragonflies & damselflies
 
-<!-- <img class="res" src="assets/images/DSC_3350.jpg"
+<!-- <img class="res" src="\images\site\DSC_3350.jpg"
  alt="Zenithoptera viola" caption="Zenithoptera viola"> -->
 
 This, my current project, extends my dissertation work to build a more practical tool for automatically identifying dragonfly and damselfly species from real-world images. I plan to train and test the systyem for identifying user images in OdonataCentral, but it should be general enough that it could be applied toward other groups of organisms as well. This ID tool will help researchers to identify their specimens in the field, and help citizen scientists and curious enthusiasts to find out what kind of insects are living in their own backyard! I am currently working on this project with Dr. Mongi Abidi in the[ IRIS Lab](http://imaging.utk.edu/) at University of Tennessee as part of an [NSF-funded postdoc](#grants).
 
 ### Wing-based species identification of dragonflies & damselflies
 
-<!-- <img class="res" src="assets/images/UA-000856.jpg" alt="Boyeria vinosa hindwing" caption="Boyeria vinosa hindwing"> -->
+<!-- <img class="res" src="\images\site\UA-000856.jpg" alt="Boyeria vinosa hindwing" caption="Boyeria vinosa hindwing"> -->
 
 For this, the main focus of my dissertation work, I built a software system (in Python) for automatically identifying dragonflies and damselflies (Odonata). Unlike my current work (above), this system used only images of the insects' wings, simplifying image processing. This worked utilized a feature extraction method that I developed (below) to pull informative information from wing images, in order to classify individuals to species. The system is able to classify odonate species with up to a 92% accuracy (for comparison, experts are 85-94% accurate at distinguishing species). The project is in collaboration with [Gareth Russell](https://sites.google.com/a/njit.edu/russell-lab/) and [Jessica Ware](https://www.jessicalwarelab.com/), and we plan to incorporate this and my other tools into a web-based identification tool for Odonata and an identification engine that could be applied other groups of insects that are harder to classify (e.g., flies or wasps).
 
 ### Zen of Dragons image-annotation project on Zooniverse
 
 <!-- <a href="https://www.zooniverse.org/projects/willkuhn/zen-of-dragons">
-<img class="res" src="assets/images/avatar_circle.png"
+<img class="res" src="\images\site\avatar_circle.png"
  alt="Zen of Dragons project" caption="Zen of Dragons project">
 </a> -->
 
@@ -71,7 +73,9 @@ Landmarking—the placement of points on homologous, biologically-meaningful loc
 
 Species in the damselfly genus *Polythore* have highly polymorphic wing patterns, both within species and between species.  In [this paper](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0125074), I developed a method for extracting novel morphological characters, which are based on wing color and patterning, and co-developed (with M. Sánchez Herrera) a protocol for landmarking *Polythore* wings, which captured wing shape and banding pattern.  We compared phylogenetic reconstructions for *Polythore* based on these morphological data and molecular data.  We found incongruences between the two, which suggest both that both polymorphic species and cryptic species exist within this clade.
 
-## Publications<a href="#"><img class="top-icon" src="assets/images/top-icon.svg" onerror="this.src='assets/images/top-icon.png'" alt="back to top"></a>
+***
+
+## Publications<a href="#"><img class="top-icon" src="\images\site\top-icon.svg" onerror="this.src='\images\site\top-icon.png'" alt="back to top"></a>
 
 {:.pubs-list}
 | 2018 | Kohli, MK, G Sahlén, **WR Kuhn**, E Pilgrim, JL Ware. In review. Extremely low genetic diversity in the circumpolar dragonfly species, *Somatochlora sahlbergi* (Insecta: Odonata: Anisoptera). Scientific Reports. |
@@ -87,13 +91,17 @@ Species in the damselfly genus *Polythore* have highly polymorphic wing patterns
 
 \*Note: Scripts in the Sanchez-Herrera et al. 2015 supplementary files require Wolfram [Mathematica](https://www.wolfram.com/mathematica/) (and optionally [Past](http://folk.uio.no/ohammer/past/)) to run.
 
-## Grants<a href="#"><img class="top-icon" src="assets/images/top-icon.svg" onerror="this.src='assets/images/top-icon.png'" alt="back to top"></a>
+***
+
+## Grants<a href="#"><img class="top-icon" src="\images\site\top-icon.svg" onerror="this.src='\images\site\top-icon.png'" alt="back to top"></a>
 
 {:.pubs-list}
 | 2016 | Leveraging face-detection methods to identify insects from field photos, automatically (**PI**, [link](http://www.nsf.gov/awardsearch/showAward?AWD_ID=1611642)) | $138,000 |
 |  | ODOMATIC: Automatic Species Identification, Functional Morphology, and Feature Extraction to alleviate the taxonomic impediment and broaden citizen science tools (**senior personnel**, [link](http://www.nsf.gov/awardsearch/showAward?AWD_ID=1564386)) | $432,015 |
 
-## Links<a href="#"><img class="top-icon" src="assets/images/top-icon.svg" onerror="this.src='assets/images/top-icon.png'" alt="back to top"></a>
+***
+
+## Links<a href="#"><img class="top-icon" src="\images\site\top-icon.svg" onerror="this.src='\images\site\top-icon.png'" alt="back to top"></a>
 
 - [Discover Life in America](http://dlia.org/)
 - [Worldwide Dragonfly Association](https://worlddragonfly.org)

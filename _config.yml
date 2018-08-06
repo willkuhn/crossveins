@@ -1,9 +1,9 @@
-theme: jekyll-theme-slate
-logo: assets/images/Pantala_logo_v3.png
+# theme: jekyll-theme-slate
+logo: images/header/Pantala_logo_v3.png
 title: William R. Kuhn, PhD
 copyright: William R. Kuhn
 description: Entomology, evolutionary biology, biodiversity informatics
-show_downloads: False
+# show_downloads: False
 google_analytics: UA-121992442-1
 author:
   twitter: crossveins

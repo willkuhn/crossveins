@@ -1,6 +1,7 @@
 ---
 ---
-@import "{{ site.theme }}";
+// @import "{{ site.theme }}";
+@import "/assets/css/jekyll-theme-slate.css";
 
 /*--- PAGE ------------------------------------------------------------------*/
 
@@ -22,24 +23,26 @@ $alt-font                        : serif;
 
 $base-color                      : rgba(#222,0.8);
 $text-color                      : #090A08; //smoky black // #181916; // eerie black
-$h3-color                        : #C64A3B; // English vermillion // #C13828; // internat'l orange // #5B974F; // middle green
-$link-color                      : $h3-color;
-$footer-color                    : #C6D9C9; // pastel gray
+$site-color                      : #C64A3B; // English vermillion // #C13828; // internat'l orange // #5B974F; // middle green
+$link-color                      : $site-color;
 $title-color                     : #C6D9C9; // pastel gray
+$footer-color                    : $title-color;
+$blog-color											 : #1A7BBC; // cyan cornflower blue
+$hr-color												 : #777777; // sonic silver
 
 
 /*--- LINKS -----------------------------------------------------------------*/
 
-a {
+body#site a {
 	text-decoration: none;
 	color: $link-color;
 
 	&:visited {
-		color: lighten($link-color, 10);
+		color: desaturate($link-color, 10);
 	}
 
 	&:hover {
-		color: lighten($link-color, 10);
+		color: desaturate($link-color, 10);
 	}
 
 	&:focus {
@@ -53,19 +56,39 @@ a {
 	}
 }
 
+body#post-index a,
+body#post a {
+	color: $blog-color;
+
+	&:visited {
+		color: lighten($blog-color, 10);
+	}
+	&:hover {
+		color: lighten($blog-color, 10);
+	}
+	&:focus {
+		color: darken($blog-color, 10);
+	}
+}
 
 /*--- HEADER ----------------------------------------------------------------*/
 
 // Project title & tagline
-#project_title, #project_tagline{
+#project_title,
+#project_tagline {
   color: $title-color;
 	text-align: center;
 	font-weight: 200 !important;
 }
 
+#project_tagline {
+	// border-bottom: none;
+	margin: 0px;
+}
+
 // NAVIGATION BAR
 
-.navigation-bar {
+.navigation-bar, .blog-navigation-bar {
     //word-spacing: 20px;
     list-style-type: none;
     margin: 0;
@@ -82,7 +105,7 @@ a {
     	text-transform: uppercase;
       font-weight: 500 !important;
 
-	    &:hover {
+	    &:hover, &:visited {
 	    	text-transform: uppercase;
 	      color: lighten($link-color,10);
 	    }
@@ -94,6 +117,24 @@ a {
 
 }
 
+.navigation-bar {
+	a:hover {
+		color: lighten($link-color,10);
+	}
+	a:visited {
+		color: $link-color;
+	}
+}
+
+.blog-navigation-bar {
+	a:hover {
+		color: lighten($blog-color,10);
+	}
+	a:visited {
+		color: $blog-color;
+	}
+}
+
 
 /*--- MAIN CONTENT ----------------------------------------------------------*/
 
@@ -101,12 +142,11 @@ a {
 
 hr {
     display: block;
-    margin: 1em 0 1.5em;
+    // margin: 1em 0 1.5em;
     padding: 0;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #fff;
+		background-color: $hr-color;
 }
 
 // FIGURES & IMAGES
@@ -118,7 +158,12 @@ figure {
 
   img {
     margin-bottom: 0px;
+		border-radius: 20px;
   }
+	figcaption {
+		font-size: 80%;
+		padding: 0 20px 0 20px;
+	}
 }
 
 img {
@@ -182,9 +227,13 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500 !important;
 }
 
-// h2 {
-// 	padding-top: 30px;
-// }
+h2 {
+	padding-bottom: 0;
+	// border-bottom: 1px solid $text-color;
+	margin-bottom: 10px;
+	margin-top: 30px;
+	background: none;
+}
 
 // Text color
 h2, h4, h6, p, td {
@@ -193,9 +242,33 @@ h2, h4, h6, p, td {
 strong {
   color: $text-color;
 }
-h3, h5 {
-  color: $h3-color;
+body#site {
+	h3 {
+		color: $site-color;
+	}
+	h5 {
+		color: $site-color;
+	}
 }
+
+body#post {
+	h3 {
+		color: $blog-color;
+	}
+	h5 {
+		color: $blog-color;
+	}
+}
+
+body#post-index {
+	h3 {
+		color: $text-color;
+	}
+	h5 {
+		color: $text-color;
+	}
+}
+
 
 // Style publications & grants tables
 table.pubs-list{

@@ -1,26 +1,28 @@
 <!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,maximum-scale=2">
-    <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <!-- Webfonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lora:200|Montserrat:300" rel="stylesheet">
-    <meta http-equiv="cleartype" content="on">
-
-    {% seo %}
+    {% include head.html %}
   </head>
 
-  <body>
-
-    <!-- HEADER -->
+  <body id="site">
+    <!-- HEADER + NAVIGATION -->
     <div id="header_wrap" class="outer">
-      {% include header.html %}
-      <!-- <br> -->
-      {% include navigation.html %}
+      <!-- HEADER -->
+      <header class="inner">
+        {% include header.html %}
+      </header>
+
+      <!-- NAVIGATION -->
+      <nav>
+        {% include navigation.html %}
+      </nav>
       <br>
+
     </div>
+
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
@@ -30,11 +32,11 @@
     </div>
 
     <!-- FOOTER -->
-    <footer>
-        <div class="footer-wrapper" class="outer">
+    <div class="footer-wrapper" class="outer">
+      <footer role="contentinfo">
           {% include footer.html %}
-        </div>
-    </footer>
-
+      </footer>
+    </div>
+  </body>
 
 </html>

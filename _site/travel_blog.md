@@ -1,3 +1,0 @@
-# Travel Blog
-
-Some text for the blog...
