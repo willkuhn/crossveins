@@ -35,7 +35,7 @@ $hr-color												 : $background-color; // #777777; // sonic silver
 
 body {
 	max-width: 700px;
-	margin: 0 auto 0 auto;
+	margin: 0 auto 0 auto !important;
 	background: $background-color;
 }
 

@@ -268,7 +268,7 @@ Small Device Styles
 /*--- TYPOGRAPHY ------------------------------------------------------------*/
 /*--- COLORS ----------------------------------------------------------------*/
 /*--- WHOLE SITE ------------------------------------------------------------*/
-body { max-width: 700px; margin: 0 auto 0 auto; background: #494949; }
+body { max-width: 700px; margin: 0 auto 0 auto !important; background: #494949; }
 
 #main_content_wrap { border: 0; }
 
