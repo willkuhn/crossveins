@@ -13,7 +13,7 @@ $column-width                    : 950px;
 /*--- TYPOGRAPHY ------------------------------------------------------------*/
 
 $base-font                       : 'Montserrat', sans-serif;
-$heading-font                    : $base-font; //'Lora', serif;
+$heading-font                    : $base-font; // 'Lora', serif;
 $caption-font                    : $base-font;
 $code-font                       : monospace;
 $alt-font                        : serif;
@@ -22,14 +22,30 @@ $alt-font                        : serif;
 /*--- COLORS ----------------------------------------------------------------*/
 
 $base-color                      : rgba(#222,0.8);
-$text-color                      : #090A08; //smoky black // #181916; // eerie black
-$site-color                      : #C64A3B; // English vermillion // #C13828; // internat'l orange // #5B974F; // middle green
+$text-color                      : #090A08; 			// smoky black
+$site-color                      : #C64A3B; 			// English vermillion
 $link-color                      : $site-color;
-$title-color                     : #C6D9C9; // pastel gray
+$title-color                     : #C6D9C9; 			// pastel gray
 $footer-color                    : $title-color;
-$blog-color											 : #1A7BBC; // cyan cornflower blue
-$hr-color												 : #777777; // sonic silver
+$blog-color											 : #1A7BBC; 			// cyan cornflower blue
+$background-color								 : #494949; 			// jet
+$hr-color												 : $background-color; // #777777; // sonic silver
 
+/*--- WHOLE SITE ------------------------------------------------------------*/
+
+body {
+	max-width: 700px;
+	margin: 0 auto 0 auto;
+	background: $background-color;
+}
+
+#main_content_wrap {
+	border: 0;
+}
+
+.footer-wrapper {
+	background: linear-gradient(to bottom, #373737, #212121);
+}
 
 /*--- LINKS -----------------------------------------------------------------*/
 
@@ -146,6 +162,7 @@ hr {
     padding: 0;
     height: 1px;
     border: 0;
+		background: none;
 		background-color: $hr-color;
 }
 

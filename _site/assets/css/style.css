@@ -267,6 +267,13 @@ Small Device Styles
 /*--- PAGE ------------------------------------------------------------------*/
 /*--- TYPOGRAPHY ------------------------------------------------------------*/
 /*--- COLORS ----------------------------------------------------------------*/
+/*--- WHOLE SITE ------------------------------------------------------------*/
+body { max-width: 700px; margin: 0 auto 0 auto; background: #494949; }
+
+#main_content_wrap { border: 0; }
+
+.footer-wrapper { background: linear-gradient(to bottom, #373737, #212121); }
+
 /*--- LINKS -----------------------------------------------------------------*/
 body#site a { text-decoration: none; color: #C64A3B; }
 body#site a:visited { color: #b95448; }
@@ -297,7 +304,7 @@ body#post-index a:focus, body#post a:focus { color: #145e8f; }
 .blog-navigation-bar a:visited { color: #1A7BBC; }
 
 /*--- MAIN CONTENT ----------------------------------------------------------*/
-hr { display: block; padding: 0; height: 1px; border: 0; background-color: #777777; }
+hr { display: block; padding: 0; height: 1px; border: 0; background: none; background-color: #494949; }
 
 figure { margin: 0; padding-top: 10px; padding-bottom: 10px; }
 figure img { margin-bottom: 0px; border-radius: 20px; }
