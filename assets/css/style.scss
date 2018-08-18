@@ -193,7 +193,10 @@ img {
 	&#logo {
     margin: 0px;
     padding: 0px;
-    // max-width: 640px !important;
+    max-width: 85%;// 640px
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	// Images in research section
