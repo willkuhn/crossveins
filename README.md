@@ -67,7 +67,7 @@ Species in the damselfly genus *Polythore* have highly polymorphic wing patterns
 ## Publications
 
 {:.pubs-list}
-| 2018 | Kohli, MK, G Sahlén, **WR Kuhn**, E Pilgrim, JL Ware. In review. Extremely low genetic diversity in the circumpolar dragonfly species, *Somatochlora sahlbergi* (Insecta: Odonata: Anisoptera). Scientific Reports. |
+| 2018 | Kohli, MK, G Sahlén, **WR Kuhn**, E Pilgrim, JL Ware. Accepted for publication. Extremely low genetic diversity in the circumpolar dragonfly species, *Somatochlora sahlbergi* (Insecta: Odonata: Anisoptera). Scientific Reports. |
 | 2016 | **Kuhn, WR**. 2016. Three Approaches to Automating Taxonomy with Emphasis on the Odonata (Dragonflies and Damselflies). PhD Dissertation. Federated Dept. of Biological Sciences, Rutgers University, Newark, NJ. 189 pp. |
 | 2015 | Sanchez-Herrera, M, **WR Kuhn**, MO Lorenzo-Carballa, KM Harding, N Ankrom, TN Sherratt, J Hoffman, H Van Gossum, JL Ware, A Cordero-Rivera, CD Beatty. 2015. Mixed signals? Morphological and molecular evidence suggest a color polymorphism in the Neotropical *Polythore* damselflies. PLOS One 10(4): e0125074. [[link](http://dx.doi.org/10.1371/journal.pone.0125074)] [[pdf](assets/docs/Sanchez_et_al_2015_Polythore.pdf)] [[supp files & Mathematica notebook](https://www.dropbox.com/s/d0xtzgil41b8wn7/Supplementary%20file%20S1.zip?dl=0)*] |
 | 2013 | **Kuhn, WR**, RR Youngman, K Love, T Mize, S Wu, and CA Laub. 2013. Billbugs (Coleoptera: Curculionidae) new to orchardgrass (*Dactylis glomerata*) grown in Virginia. Entomolological News 123(4): 315–316. [[link](http://dx.doi.org/10.3157/021.123.0405)] [[pdf](assets/docs/Kuhn_et_al_2013_Ent_News.pdf)] |
