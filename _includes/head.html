@@ -1,5 +1,5 @@
 <meta charset="utf-8">
-<link rel="icon" type="image/png" href="{{"images/favicon.png" | relative_url}}">
+<link rel="icon" type="image/png" href="{{ "images/favicon.png" | relative_url }}">
 <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
 <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
@@ -29,10 +29,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="{{"assets/css/style.css" | relative_url}}">
+<link rel="stylesheet" href="{{ "assets/css/style.css" | relative_url }}">
 <!-- Webfonts -->
 <link href="https://fonts.googleapis.com/css?family=Lato|Merriweather" rel="stylesheet">
-<!-- <link href="https://fonts.googleapis.com/css?family=Lora:200|Montserrat:300" rel="stylesheet"> -->
 
 <meta http-equiv="cleartype" content="on">
 
