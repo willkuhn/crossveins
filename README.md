@@ -1,24 +1,11 @@
 <p style="display:none;">Title</p>
 
-## About
+## About Me
 
-I'm a postdoc working under an NSF Postdoctoral Fellowship in the Imaging, Robotics, and Intelligent Systems (IRIS) Lab at the University of Tennessee. My interests lie at the intersection of organismal biology and machine learning, and specifically in applications like automatically identifying species and automatically describing biological specimens. I have a background in entomology (with dragonflies and weevils) and evolutionary biology. This site outlines my postdoc and dissertation research, as well as a few side projects. Please have a look around and contact me if you have questions, have suggestions, or are interested in learning more about my work.
+I'm a postdoc working under an NSF Postdoctoral Fellowship in the Imaging, Robotics, and Intelligent Systems (IRIS) Lab at the University of Tennessee. I have a background in entomology and evolutionary biology, but I also have strong interests in computer vision and machine learning. This site describes my current [research](#research) projects and some side projects...and includes my occasionally-updated musings in [blog-form](/blog). Welcome! Please look around and contact me if you have questions or suggestions, or are interested in learning more about my work.
 
+{:.scan}
 {% include image.html file="/images/site/will.jpg" description="" %}
-
-### Contact
-
-**Dept. Electrical Engineering & Computer Science**<br>
-University of Tennessee
-
-**Ming Kao Engineering Building**<br>
-Room 236<br>
-1520 Middle Drive<br>
-Knoxville, Tennessee 37996
-
-**willkuhn [at] crossveins [dot] com**
-
-### [Curriculum vitae (PDF)](assets/docs/Kuhn CV.pdf)
 
 ***
 
@@ -100,6 +87,22 @@ Species in the damselfly genus *Polythore* have highly polymorphic wing patterns
 {:.pubs-list}
 | 2016 | Leveraging face-detection methods to identify insects from field photos, automatically (**PI**, [link](http://www.nsf.gov/awardsearch/showAward?AWD_ID=1611642)) | $138,000 |
 |  | ODOMATIC: Automatic Species Identification, Functional Morphology, and Feature Extraction to alleviate the taxonomic impediment and broaden citizen science tools (**senior personnel**, [link](http://www.nsf.gov/awardsearch/showAward?AWD_ID=1564386)) | $432,015 |
+
+***
+
+## Contact
+
+**Dept. Electrical Engineering & Computer Science**<br>
+University of Tennessee
+
+**Ming Kao Engineering Building**<br>
+Room 236<br>
+1520 Middle Drive<br>
+Knoxville, Tennessee 37996
+
+**willkuhn [at] crossveins [dot] com**
+
+### [Curriculum vitae (PDF)](assets/docs/Kuhn CV.pdf)
 
 ***
 
