@@ -2,7 +2,7 @@
 
 ## About Me
 
-I'm the Director of Science and Research at Discover Life in America. I have a background in entomology and evolutionary biology, but I also have strong interests in computer vision and machine learning. This site describes my current [research](#research) projects, some side projects, and includes my occasionally-updated musings in [blog-form](/blog). Welcome! Please look around and contact me if you have questions or suggestions, or are interested in learning more about my work.
+I'm an entomologist and evolutionary biologist with diverse interests ranging from biodiversity informatics to automatic species recognition. Though I have a biological background, I also have strong interests in computer vision and machine learning, and love to imagine and implement new ways to automate processes for gathering useful biological data. As of September 2018, I am the Director of Science and Research at Discover Life in America ([DLiA](https://dlia.org)), where I help direct biodiversity research conducted in Great Smoky Mountains National Park and to educate the public about the incredible biodiversity of this region. This site describes my current [research](#research) projects, some side projects, and includes my occasionally-updated musings in [blog-form](/blog). Welcome! Please look around and contact me if you have questions or suggestions, or are interested in learning more about my work.
 
 {:.scan}
 {% include image.html file="/images/site/will.jpg" description="" %}
@@ -11,11 +11,9 @@ I'm the Director of Science and Research at Discover Life in America. I have a b
 
 ## Research
 
-<!--
 ### Discover Life in America
 
-DLiA is a non-profit charged with carrying out an ATBI (all taxa biodiversity inventory) in Great Smoky Mountains National Park.
--->
+DLiA is a non-profit charged with carrying out an ATBI (all taxa biodiversity inventory) in Great Smoky Mountains National Park (GSMNP). Currently, there are some 20,000 species known to the Park; with around half of those discovered by the efforts of this ATBI and 1000 of those that are newly described species! However, there are estimated to be 3-4 times this many species in the Park, so we have a long way to go. I am helping to guide the activities of the ATBI, including biodiversity research and citizen science, as well as guiding our outreach about the project.
 
 ### Targeted Odonata Wing Digitization Project
 
@@ -98,8 +96,8 @@ Species in the damselfly genus *Polythore* have highly polymorphic wing patterns
 
 ## Contact
 
-**Discover Life in America**
-1316 Cherokee Orchard Road
+**Discover Life in America**<br/>
+1316 Cherokee Orchard Road<br/>
 Gatlinburg, Tennessee 37738
 
 **willkuhn [at] crossveins [dot] com**
