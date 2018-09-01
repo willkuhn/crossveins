@@ -2,7 +2,7 @@
 
 ## About Me
 
-I'm a postdoc working under an NSF Postdoctoral Fellowship in the Imaging, Robotics, and Intelligent Systems (IRIS) Lab at the University of Tennessee. I have a background in entomology and evolutionary biology, but I also have strong interests in computer vision and machine learning. This site describes my current [research](#research) projects and some side projects...and includes my occasionally-updated musings in [blog-form](/blog). Welcome! Please look around and contact me if you have questions or suggestions, or are interested in learning more about my work.
+I'm the Director of Science and Research at Discover Life in America. I have a background in entomology and evolutionary biology, but I also have strong interests in computer vision and machine learning. This site describes my current [research](#research) projects, some side projects, and includes my occasionally-updated musings in [blog-form](/blog). Welcome! Please look around and contact me if you have questions or suggestions, or are interested in learning more about my work.
 
 {:.scan}
 {% include image.html file="/images/site/will.jpg" description="" %}
@@ -10,6 +10,12 @@ I'm a postdoc working under an NSF Postdoctoral Fellowship in the Imaging, Robot
 ***
 
 ## Research
+
+<!--
+### Discover Life in America
+
+DLiA is a non-profit charged with carrying out an ATBI (all taxa biodiversity inventory) in Great Smoky Mountains National Park.
+-->
 
 ### Targeted Odonata Wing Digitization Project
 
@@ -92,13 +98,9 @@ Species in the damselfly genus *Polythore* have highly polymorphic wing patterns
 
 ## Contact
 
-**Dept. Electrical Engineering & Computer Science**<br>
-University of Tennessee
-
-**Ming Kao Engineering Building**<br>
-Room 236<br>
-1520 Middle Drive<br>
-Knoxville, Tennessee 37996
+**Discover Life in America**
+1316 Cherokee Orchard Road
+Gatlinburg, Tennessee 37738
 
 **willkuhn [at] crossveins [dot] com**
 
