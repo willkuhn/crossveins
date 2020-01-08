@@ -17,11 +17,11 @@ DLiA is a non-profit charged with carrying out an ATBI (all taxa biodiversity in
 
 ### Targeted Odonata Wing Digitization Project
 
-<!-- <a href="https://willkuhn.github.io/towd">
-<img class="res" src="https://willkuhn.github.io/towd\images\site\towd-project-logo.png" alt="TOWD Project logo" caption="TOWD Project logo">
+<!-- <a href="https://digitizingdragonflies.org">
+<img class="res" src="https://digitizingdragonflies.org\images\site\towd-project-logo.png" alt="TOWD Project logo" caption="TOWD Project logo">
 </a> -->
 
-The TOWD Project is a collaborative effort with Rutgers and University of Alabama, and several other institutions to digitize the wings of all North American species of dragonflies and damselflies, and to build a publicly-available image library, hosted by [CyVerse](https://cyverse.org/) Cyberinfrastructure. We're incorporating wing-based species identification engine, which will be trained to distinguish all North American Odonata, and creating tools to be able to automatically extract phenological information from these images (such as wing shape, size, color, and patterning) for comparative analysis. This work if funded by an NSF ABI [grant](#grants). ([project website](https://willkuhn.github.io/towd/))
+The TOWD Project is a collaborative effort with Rutgers and University of Alabama, and several other institutions to digitize the wings of all North American species of dragonflies and damselflies, and to build a publicly-available image library, hosted by [CyVerse](https://cyverse.org/) Cyberinfrastructure. We're incorporating wing-based species identification engine, which will be trained to distinguish all North American Odonata, and creating tools to be able to automatically extract phenological information from these images (such as wing shape, size, color, and patterning) for comparative analysis. This work if funded by an NSF ABI [grant](#grants). ([project website](https://digitizingdragonflies.org))
 
 ### Photo-based species identification of dragonflies & damselflies
 
@@ -102,7 +102,7 @@ Gatlinburg, Tennessee 37738
 
 **willkuhn [at] crossveins [dot] com**
 
-### [Curriculum vitae (PDF)](assets/docs/Kuhn CV.pdf)
+### [Curriculum vitae (PDF)](assets/docs/Kuhn_CV.pdf)
 
 ***
 
